@@ -86,10 +86,12 @@
         <fieldset class="mt-2">
           <label for="word">Enter word to rotate:</label>
           <input v-model="word" id="word" type="text">
-          
-
         </fieldset>
-
+        <fieldset class="mt-2">
+          <label for="codeword">Enter codeword:</label>
+          <input v-model="codeword" id="codeword" type="text">
+        </fieldset>
+        <p>Encrypted Word: {{encryptedWord}}</p>
 
 
       </article>
@@ -137,6 +139,7 @@
 
   <script src="components/adder/adder.js"></script>
   <script src="components/subtracter/subtracter.js"></script>
+  <script src="components/coder/coder.js"></script>
 </body>
 
 </html>
