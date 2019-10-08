@@ -92,10 +92,21 @@
         <h3 class="mt-2">{{sumofNumbers}}</h3>
       </article>
 
-      <article class="col-md-4 ">
+      <article id="coder" class="col-md-4 ">
         <h2>Build tools would help us combine HTML files</h2>
         <p>It's nice to start without having to add them, so everything goes in this one HTML file. </p>
         <p>Add your own component! </p>
+        <fieldset class="mt-2">
+          <label for="word">Enter word to rotate:</label>
+          <input v-model="word" id="word" type="text">
+        </fieldset>
+        <fieldset class="mt-2">
+          <label for="codeword">Enter codeword:</label>
+          <input v-model="codeword" id="codeword" type="text">
+        </fieldset>
+        <p>Encrypted Word: {{encryptedWord}}</p>
+
+
       </article>
 
       <article class="col-md-4 ">
@@ -141,7 +152,8 @@
 
   <script src="components/adder/adder.js"></script>
   <script src="components/subtracter/subtracter.js"></script>
-  <script src = "components/findSum/findSum.js"></script>
+  <script src="components/coder/coder.js"></script>
+
 </body>
 
 </html>
