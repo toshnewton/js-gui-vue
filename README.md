@@ -83,8 +83,13 @@ const adder = new Vue({
 
 ## Expanded Examples
 
+### Digital Clock using Vue.js
 - [Demo](https://nandinidoppalapudi.github.io/js-gui-vue/)
 - [Source](https://github.com/nandinidoppalapudi/js-gui-vue)
+
+### Vue Components for Multiplication and Division
+- [Demo](https://github.com/KaranamVijayKumar/js-gui-vue)
+- [Source](https://karanamvijaykumar.github.io/js-gui-vue/)
 
 
 
