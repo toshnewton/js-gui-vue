@@ -26,7 +26,8 @@
   <!-- Vue component styles -->
   <link href="components/adder/adder.css" rel="stylesheet">
   <link href="components/subtracter/subtracter.css" rel="stylesheet">
-  <link href = "components/findSum/findSum.css" rel = "stylesheet">
+  <link href="components/findSum/findSum.css" rel="stylesheet">
+  <link href="components/coder/coder.css" rel="stylesheet">
 
 </head>
 
@@ -87,17 +88,16 @@
           <input v-model="number1" id="number1" type="number" min="1" max="100">
           <span id="firstWarning" class="text-danger"></span>
         </fieldset>
-
-       
+     
         <h3 class="mt-2">{{sumofNumbers}}</h3>
       </article>
 
       <article id="coder" class="col-md-4 ">
-        <h2>Build tools would help us combine HTML files</h2>
-        <p>It's nice to start without having to add them, so everything goes in this one HTML file. </p>
-        <p>Add your own component! </p>
+        <h2>Encrypt with the Viginere Cipher</h2>
+        <p>This cipher encodes each letter of the original word using the codeword!</p>
+        <p>An a will add one letter, b will add two, and so on.</p>
         <fieldset class="mt-2">
-          <label for="word">Enter word to rotate:</label>
+          <label for="word">Enter word to encode:</label>
           <input v-model="word" id="word" type="text">
         </fieldset>
         <fieldset class="mt-2">
@@ -105,8 +105,12 @@
           <input v-model="codeword" id="codeword" type="text">
         </fieldset>
         <p>Encrypted Word: {{encryptedWord}}</p>
-
-
+      </article>
+      
+      <article class="col-md-4 ">
+        <h2>Build tools would help us combine HTML files</h2>
+        <p>It's nice to start without having to add them, so everything goes in this one HTML file. </p>
+        <p>Add your own component! </p>
       </article>
 
       <article class="col-md-4 ">
@@ -152,6 +156,7 @@
 
   <script src="components/adder/adder.js"></script>
   <script src="components/subtracter/subtracter.js"></script>
+  <script src="components/findSum/findSum.js"></script>
   <script src="components/coder/coder.js"></script>
 
 </body>
