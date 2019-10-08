@@ -26,6 +26,7 @@
   <!-- Vue component styles -->
   <link href="components/adder/adder.css" rel="stylesheet">
   <link href="components/subtracter/subtracter.css" rel="stylesheet">
+  <link href = "components/findSum/findSum.css" rel = "stylesheet">
 
 </head>
 
@@ -77,6 +78,18 @@
         </fieldset>
 
         <h3 class="mt-2">{{difference}}</h3>
+      </article>
+      <article id="findSum" class="col-md-4 ">
+        <p>This one finds the  sum until the specified term!!</p>
+
+        <fieldset class="mt-2">
+          <label for="number1">Enter number of terms:</label>
+          <input v-model="number1" id="number1" type="number" min="1" max="100">
+          <span id="firstWarning" class="text-danger"></span>
+        </fieldset>
+
+       
+        <h3 class="mt-2">{{sumofNumbers}}</h3>
       </article>
 
       <article id="coder" class="col-md-4 ">
@@ -140,6 +153,7 @@
   <script src="components/adder/adder.js"></script>
   <script src="components/subtracter/subtracter.js"></script>
   <script src="components/coder/coder.js"></script>
+
 </body>
 
 </html>
