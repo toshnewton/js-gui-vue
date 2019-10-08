@@ -88,8 +88,8 @@ const adder = new Vue({
 - [Source](https://github.com/nandinidoppalapudi/js-gui-vue)
 
 ### Vue Components for Multiplication and Division
-- [Demo](https://github.com/KaranamVijayKumar/js-gui-vue)
-- [Source](https://karanamvijaykumar.github.io/js-gui-vue/)
+- [Source](https://github.com/KaranamVijayKumar/js-gui-vue)
+- [Demo](https://karanamvijaykumar.github.io/js-gui-vue/)
 
 
 
