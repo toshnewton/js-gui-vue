@@ -1,4 +1,4 @@
-const add = (x, y) => { return ((x * x) * Math.PI)}
+const area = (x) => { return ((x * x) * Math.PI)}
 
 const adder = new Vue({
   el: '#adder',
@@ -8,7 +8,7 @@ const adder = new Vue({
   computed: {
     result: function () {
       const i = parseInt(this.firstNumber)
-      return `Radius is ${add(i)}.`
+      return `Area is ${area(i)}.`
     }
   }
 })
