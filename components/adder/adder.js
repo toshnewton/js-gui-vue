@@ -1,7 +1,7 @@
 const area = (x) => { return ((x * x) * Math.PI)}
 
 const adder = new Vue({
-  el: '#adder',
+  el: '#radius',
   data: {
     radius: 5
   },
