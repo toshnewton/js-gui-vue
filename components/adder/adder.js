@@ -1,14 +1,14 @@
-const findRadius = (x, y) => { return ((x * x) * Math.PI)}
+const add = (x, y) => { return ((x * x) * Math.PI)}
 
-const radiusFinder = new Vue({
-  el: '#radiusFinder',
+const adder = new Vue({
+  el: '#adder',
   data: {
-    radius: 5,
+    firstNumber: 5
   },
   computed: {
     result: function () {
-      const i = parseInt(this.radius)
-      return `Radius is ${findRadius(i)}.`
+      const i = parseInt(this.firstNumber)
+      return `Radius is ${add(i)}.`
     }
   }
 })
